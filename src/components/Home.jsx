@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
-    <div className='text-white mx-12 font-roboto pt-44'>
+    <div id="home" className='text-white mx-12 font-roboto pt-44'>
       <Row className='items-center justify-between'>
         <Col md={4}>
           <img src={memoji} alt="Memoji" />
