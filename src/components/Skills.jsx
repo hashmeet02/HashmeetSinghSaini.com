@@ -40,7 +40,7 @@ const Skill = ({ image, name }) => {
     <Col 
       md={1} 
       sm={3}
-      xs={3}
+      xs={2}
       className='backdrop-blur-sm rounded-3xl text-center mx-1 my-1' 
       onMouseEnter={() => setShowName(true)} 
       onMouseLeave={() => setShowName(false)}
@@ -59,7 +59,7 @@ const Skill = ({ image, name }) => {
 
 const Skills = () => {
   return (
-    <div className='px-28 mx-auto pt-28' id="toolkit">
+    <div className='px-4 sm:px-28 mx-auto pt-10 sm:pt-28' id="toolkit">
       <h1 className='text-orange-400 text-center font-roboto font-bold text-5xl mb-4'>
         ToolKit 🔧
       </h1>
