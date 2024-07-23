@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 const NavBar = () => {
   return (
     <div>
-      <Navbar variant="light" expand="lg" fixed="top" className="bg-gradient-to-r from-black/90 via-orange-950 to-black/90 items-center font-roboto">
+      <Navbar variant="light" expand="lg" fixed="top" className="bg-gradient-to-r from-black/90 via-orange-950 to-orange-400/90 items-center font-roboto">
         <Container>
           <Navbar.Brand href="#home">
             {/* <img 
