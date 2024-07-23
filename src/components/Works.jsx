@@ -28,6 +28,22 @@ const Works = () => {
           gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
           demoLink="https://youtu.be/YL9Ws3sNO1A"
         />
+        <Work 
+          image={emeraldKioskResort} 
+          title="Assembly Line Manager" 
+          description="" 
+          tech="Java JavaFx SQLlite" 
+          gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
+          demoLink="https://youtu.be/YL9Ws3sNO1A"
+        />
+        <Work 
+          image={emeraldKioskResort} 
+          title="Assembly Line Manager" 
+          description="" 
+          tech="Java JavaFx SQLlite" 
+          gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
+          demoLink="https://youtu.be/YL9Ws3sNO1A"
+        />
       </Row>
     </div>
   )

@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
   return (
-    <Col md={4} className='bg-stone-800 text-white rounded-2xl overflow-hidden font-roboto my-4 min-w-72'>
+    <Col md={3} className='bg-stone-800 text-white rounded-2xl overflow-hidden font-roboto my-4 mx-2 min-w-72'>
       <div className='relative'>
             {demoLink && (
               <a href={demoLink} target="_blank" rel="noopener noreferrer" className='text-white'>
