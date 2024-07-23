@@ -41,15 +41,6 @@ const Home = () => {
               />
             </span>
              candidate in Toronto 🍁.</div>
-          <div className='my-4'>
-            <Button 
-              href="/resume.pdf" // Update the path if needed
-              download="Hashmeet_Singh_Saini_Resume.pdf"
-              variant="primary"
-            >
-              Download Resume
-            </Button>
-          </div>
         </Col>
       </Row>
     </div>
