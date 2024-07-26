@@ -28,11 +28,11 @@ const Home = () => {
             <span><br />
               <TypeAnimation
                 sequence={[
-                  "a Frontend Developer",
+                  "a Full-Stack",
                   1000,
-                  "a Web Designer",
+                  "a Software",
                   1000,
-                  "an Application Developer",
+                  "an Application ",
                   1000,
                 ]}
                 wrapper='div'
@@ -40,7 +40,7 @@ const Home = () => {
                 repeat={Infinity}
               />
             </span>
-             candidate in Toronto 🍁.</div>
+            Developer candidate in Toronto 🍁.</div>
         </Col>
       </Row>
     </div>
