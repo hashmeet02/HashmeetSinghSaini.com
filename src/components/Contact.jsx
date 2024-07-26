@@ -3,6 +3,7 @@ import contact from "../assets/contact.svg";
 import { Form, Button } from 'react-bootstrap';
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { SiApplemusic } from "react-icons/si";
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -96,6 +97,9 @@ const Contact = () => {
             </a>
             <a href="https://x.com/Hashmee04251863" className='text-white' target="_blank" rel="noopener noreferrer">
                 <BsTwitterX size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
+            </a>
+            <a href="https://music.apple.com/profile/hashmeet_s" className='text-white' target="_blank" rel="noopener noreferrer">
+                <SiApplemusic size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
             </a>
         </div>
       </div>
