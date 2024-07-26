@@ -28,9 +28,9 @@ const Home = () => {
             <span><br />
               <TypeAnimation
                 sequence={[
-                  "a Full-Stack",
+                  "a Full-Stack ",
                   1000,
-                  "a Software",
+                  "a Software ",
                   1000,
                   "an Application ",
                   1000,
