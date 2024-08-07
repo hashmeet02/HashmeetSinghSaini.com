@@ -2,7 +2,9 @@ import React from 'react'
 import Work from './Work'
 import { Row } from 'react-bootstrap'
 import emeraldKioskResort from "../assets/works/emeraldKioskResort.png";
-import myStockApp from "../assets/works/myStockApp.png"
+import myStockApp from "../assets/works/myStockApp.png";
+import toDoListApp from "../assets/works/toDoListApp.png";
+import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.png";
 
 const Works = () => {
   return (
@@ -21,6 +23,7 @@ const Works = () => {
           gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
           demoLink="https://youtu.be/YL9Ws3sNO1A"
         />
+
         <Work 
           image={myStockApp} 
           title="My Stocks App" 
@@ -30,21 +33,28 @@ const Works = () => {
           gitLink="https://github.com/hashmeet02/MyStocksApp" 
           demoLink="https://youtu.be/mbMVBgWzg38"
         />
+
         <Work 
-          image={emeraldKioskResort} 
-          title="Assembly Line Manager" 
-          description="" 
-          tech="Java JavaFx SQLlite" 
-          gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
-          demoLink="https://youtu.be/YL9Ws3sNO1A"
+          image={toDoListApp} 
+          title="To Do List App" 
+          description="This is my To Do App created for IOS using Xcode, Swift and 
+          Storyboard. It allows users to manage their reminders with CRUD operations and 
+          has persistent data storage to save user data. " 
+          tech="Swift Storyboard" 
+          gitLink="https://github.com/hashmeet02/ToDoListApp" 
+          demoLink="https://youtu.be/Kn8tT8z9s7s"
         />
+        
         <Work 
-          image={emeraldKioskResort} 
-          title="Assembly Line Manager" 
-          description="" 
-          tech="Java JavaFx SQLlite" 
-          gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
-          demoLink="https://youtu.be/YL9Ws3sNO1A"
+          image={contactsDirectoryApp} 
+          title="Contacts Direcotry App" 
+          description="This is the demo for my Contact Directory App created on Android 
+          Studio with Java and Room Database. The aim of the application is to allow 
+          android users to be able to perform CRUD operations and manage their list of 
+          Contacts." 
+          tech="Android Studio Java RoomDB" 
+          gitLink="https://github.com/hashmeet02/Contacts-Directory-App" 
+          demoLink=" https://youtu.be/Z5XayO9C2RQ"
         />
       </Row>
     </div>
