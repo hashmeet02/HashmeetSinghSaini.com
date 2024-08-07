@@ -5,6 +5,7 @@ import emeraldKioskResort from "../assets/works/emeraldKioskResort.png";
 import myStockApp from "../assets/works/myStockApp.png";
 import toDoListApp from "../assets/works/toDoListApp.png";
 import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.png";
+import inventoryManagementApp from "../assets/works/inventoryManagementApp.png";
 
 const Works = () => {
   return (
@@ -54,9 +55,22 @@ const Works = () => {
           Contacts." 
           tech="Android Studio Java RoomDB" 
           gitLink="https://github.com/hashmeet02/Contacts-Directory-App" 
-          demoLink=" https://youtu.be/Z5XayO9C2RQ"
+          demoLink="https://youtu.be/Z5XayO9C2RQ"
+        />
+        <Work 
+          image={inventoryManagementApp} 
+          title="Inventory Management App" 
+          description="This is an Inventory Management Application created using Java 
+          in conjunction with SQL lite for data persistence. The goal of the app is to 
+          provide persisted CRUD functionality to the user such that they can store 
+          information about some parts and products that they have." 
+          tech="Java JavaFX SQLlite" 
+          gitLink="https://github.com/hashmeet02/Inventory-Management-App" 
+          demoLink=" https://youtu.be/ikruzUthLtg"
         />
       </Row>
+
+
     </div>
   )
 }

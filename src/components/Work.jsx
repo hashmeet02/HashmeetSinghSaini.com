@@ -11,7 +11,7 @@ const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
                 <img
                     src={image}
                     alt=""
-                    className='p-3 transform transition-transform duration-300 ease-in-out hover:scale-110'
+                    className='p-3 transform transition-transform duration-300 ease-in-out hover:scale-110 rounded-lg'
                 />
               </a>
             )}
