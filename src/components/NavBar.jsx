@@ -15,7 +15,7 @@ const NavBar = () => {
             <div className='text-3xl text-orange-400'>HASHMEET S. SAINI</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="text-white" />
-          <Navbar.Collapse id="basic-navbar-nav" className="p-6 rounded-3xl">
+          <Navbar.Collapse id="basic-navbar-nav" className="p-2 rounded-3xl">
             <Nav className="ml-auto">
               <Nav.Link href="#toolkit" className="text-white !text-2xl hover:!text-orange-400">Toolkit</Nav.Link>
               <Nav.Link href="#works" className="text-white !text-2xl hover:!text-orange-400">Works</Nav.Link>

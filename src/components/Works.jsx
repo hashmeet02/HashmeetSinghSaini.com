@@ -6,6 +6,7 @@ import myStockApp from "../assets/works/myStockApp.png";
 import toDoListApp from "../assets/works/toDoListApp.png";
 import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.png";
 import inventoryManagementApp from "../assets/works/inventoryManagementApp.png";
+import artLusionApp from "../assets/works/artLusionApp.png";
 
 const Works = () => {
   return (
@@ -28,7 +29,7 @@ const Works = () => {
         <Work 
           image={myStockApp} 
           title="My Stocks App" 
-          description="IOS application built on Xcode allowing users to track their stocks
+          description="iOS application built on Xcode allowing users to track their stocks
           using real time data from MSFinance API."
           tech="Swift CoreData Storyboard RapidApi" 
           gitLink="https://github.com/hashmeet02/MyStocksApp" 
@@ -38,7 +39,7 @@ const Works = () => {
         <Work 
           image={toDoListApp} 
           title="To Do List App" 
-          description="This is my To Do App created for IOS using Xcode, Swift and 
+          description="This is my To Do App created for iOS using Xcode, Swift and 
           Storyboard. It allows users to manage their reminders with CRUD operations and 
           has persistent data storage to save user data. " 
           tech="Swift Storyboard" 
@@ -57,6 +58,7 @@ const Works = () => {
           gitLink="https://github.com/hashmeet02/Contacts-Directory-App" 
           demoLink="https://youtu.be/Z5XayO9C2RQ"
         />
+
         <Work 
           image={inventoryManagementApp} 
           title="Inventory Management App" 
@@ -66,7 +68,19 @@ const Works = () => {
           information about some parts and products that they have." 
           tech="Java JavaFX SQLlite" 
           gitLink="https://github.com/hashmeet02/Inventory-Management-App" 
-          demoLink=" https://youtu.be/ikruzUthLtg"
+          demoLink="https://youtu.be/ikruzUthLtg"
+        />
+
+        <Work 
+          image={artLusionApp} 
+          title="ArtLusion Website" 
+          description="This is a website built over the APIs offered by Metro Art 
+          university. It allows users to search artwork based on different categories
+          like title, type, paint and more. It also provides ability to favorite cetain
+          artworks." 
+          tech="NextJs" 
+          gitLink="https://github.com/hashmeet02/ArtLusion/tree/main" 
+          demoLink="https://art-lusion-hashmeet02.vercel.app/"
         />
       </Row>
 
