@@ -2,6 +2,7 @@ import React from 'react'
 import Work from './Work'
 import { Row } from 'react-bootstrap'
 import emeraldKioskResort from "../assets/works/emeraldKioskResort.png";
+import myStockApp from "../assets/works/myStockApp.png"
 
 const Works = () => {
   return (
@@ -21,12 +22,13 @@ const Works = () => {
           demoLink="https://youtu.be/YL9Ws3sNO1A"
         />
         <Work 
-          image={emeraldKioskResort} 
-          title="Assembly Line Manager" 
-          description="" 
-          tech="Java JavaFx SQLlite" 
-          gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
-          demoLink="https://youtu.be/YL9Ws3sNO1A"
+          image={myStockApp} 
+          title="My Stocks App" 
+          description="IOS application built on Xcode allowing users to track their stocks
+          using real time data from MSFinance API."
+          tech="Swift CoreData Storyboard RapidApi" 
+          gitLink="https://github.com/hashmeet02/MyStocksApp" 
+          demoLink="https://youtu.be/mbMVBgWzg38"
         />
         <Work 
           image={emeraldKioskResort} 
