@@ -7,6 +7,7 @@ import toDoListApp from "../assets/works/toDoListApp.png";
 import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.png";
 import inventoryManagementApp from "../assets/works/inventoryManagementApp.png";
 import artLusionApp from "../assets/works/artLusionApp.png";
+import assemblyLineProject from "../assets/works/assemblyLineProject.jpg";
 
 const Works = () => {
   return (
@@ -82,6 +83,17 @@ const Works = () => {
           gitLink="https://github.com/hashmeet02/ArtLusion/tree/main" 
           demoLink="https://art-lusion-hashmeet02.vercel.app/"
         />
+
+        <Work 
+          image={assemblyLineProject} 
+          title="Assembly Line Project" 
+          description="C++ multi-threaded OOP project created to mimic the working of a 
+          Manufacturing Plant producing different products and parts to fulfill 
+          customer requirements. It reads and writes data from and to text files." 
+          tech="C++" 
+          gitLink="https://github.com/hashmeet02/ArtLusion/tree/main"
+        />
+
       </Row>
 
 
