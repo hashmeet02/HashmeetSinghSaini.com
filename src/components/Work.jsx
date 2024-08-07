@@ -18,7 +18,7 @@ const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
       </div>
       <div className='px-3 pb-3 flex-grow flex flex-col'>
         <div className='font-bold text-xl my-1'>{title}</div>
-        <div className='text-lg my-1'>{description}</div>
+        <div className='text-lg my-3'>{description}</div>
         <Row className='mt-auto text-sm items-center'>
           <Col className='flex-grow'>
             {tech}
