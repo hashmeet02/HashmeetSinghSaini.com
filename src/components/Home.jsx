@@ -1,6 +1,6 @@
 import React from 'react';
 //import memoji from "../assets/HashmeetMemoji.svg";
-import memoji2 from "../assets/hashmeet.svg";
+import memoji2 from "../assets/hashmeetMemoji.svg";
 import { Row, Col, Button } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
