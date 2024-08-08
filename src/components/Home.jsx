@@ -1,5 +1,6 @@
 import React from 'react';
-import memoji from "../assets/HashmeetMemoji.svg";
+//import memoji from "../assets/HashmeetMemoji.svg";
+import memoji2 from "../assets/hashmeet.svg";
 import { Row, Col, Button } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
@@ -8,7 +9,7 @@ const Home = () => {
     <div id="home" className='text-white mx-12 font-roboto pt-44'>
       <Row className='items-center justify-between'>
         <Col md={4}>
-          <img src={memoji} alt="Memoji" />
+          <img src={memoji2} alt="Memoji" />
         </Col>
         <Col md={8}>
           <div className='text-orange-400 text-3xl my-2'>Hi👋🏼, my name is</div>

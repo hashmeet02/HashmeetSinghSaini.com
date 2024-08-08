@@ -93,9 +93,8 @@ const Works = () => {
           tech="C++" 
           gitLink="https://github.com/hashmeet02/ArtLusion/tree/main"
         />
-
+  
       </Row>
-
 
     </div>
   )
