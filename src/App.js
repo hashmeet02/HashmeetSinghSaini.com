@@ -1,4 +1,3 @@
-import Navbar from "./components/NavBar";
 import React from "react";
 import { Helmet } from "react-helmet";
 import NavBar from "./components/NavBar";
