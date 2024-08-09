@@ -18,12 +18,12 @@ const FadeInSection = ({ children }) => {
     <div ref={ref} className='relative over'>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y: 150 },
+          hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
         initial="hidden"
         animate={controls}
-        transition={{ duration: 1 }}
+        transition={{ duration: 3 }}
       >
         {children}
       </motion.div>

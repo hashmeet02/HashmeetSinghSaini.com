@@ -8,6 +8,7 @@ import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.png";
 import inventoryManagementApp from "../assets/works/inventoryManagementApp.png";
 import artLusionApp from "../assets/works/artLusionApp.png";
 import assemblyLineProject from "../assets/works/assemblyLineProject.jpg";
+import FadeInSection from './FadeInSection';
 
 const Works = () => {
   return (
