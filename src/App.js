@@ -10,7 +10,7 @@ import FadeInSection from "./components/FadeInSection"; // Adjust the import pat
 
 function App() {
   return (
-    <div className="bg-black min-h-screen overflow-hidden">
+    <div className="min-h-screen overflow-hidden">
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
