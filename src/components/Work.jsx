@@ -5,14 +5,16 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
   return (
     <Col md={3} className='bg-stone-800 text-white rounded-2xl overflow-hidden font-roboto my-3 mx-1 min-w-72 flex flex-col'>
-      <div className='relative'>
+      <div className='relative p-3'>
             {(demoLink || gitLink) && (
               <a href={demoLink || gitLink} target="_blank" rel="noopener noreferrer" className='text-white'>
+                <div className='overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-110 rounded-xl'>
                 <img
                     src={image}
                     alt=""
-                    className='p-3 transform transition-transform duration-300 ease-in-out hover:scale-110 rounded-lg'
+                    className=''
                 />
+                </div>
               </a>
             )}
       </div>
