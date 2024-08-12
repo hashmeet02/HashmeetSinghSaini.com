@@ -15,7 +15,7 @@ const Works = () => {
       <h1 className='text-orange-400 text-5xl text-center font-roboto font-bold  mb-4'>
         Works 👨🏼‍💻
       </h1>
-      <Row className='mx-auto justify-around'>
+      <Row className='mx-auto justify-around '>
         <Work 
           image={emeraldKioskResort} 
           title="Emerald Chasm Resort Kiosk" 

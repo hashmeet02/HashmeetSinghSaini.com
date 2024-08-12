@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
   return (
-    <Col md={3} className='bg-stone-800 text-white rounded-2xl overflow-hidden font-roboto my-3 mx-1 min-w-72 flex flex-col'>
+    <Col md={3} className='bg-neutral-900 text-white rounded-2xl overflow-hidden font-roboto my-3 mx-1 min-w-72 flex flex-col'>
       <div className='relative p-3 pt-4'>
         {(demoLink || gitLink) && (
           <a 
@@ -13,7 +13,7 @@ const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
             rel="noopener noreferrer" 
             className='block text-white'
           >
-            <div className='overflow-hidden rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-125 '>
+            <div className='overflow-hidden rounded-xl transform transition-transform duration-500 ease-in-out scale-90 hover:scale-105 '>
               <img
                 src={image}
                 alt=""
@@ -23,7 +23,7 @@ const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
           </a>
         )}
       </div>
-      <div className='px-3 pb-3 flex-grow flex flex-col'>
+      <div className='px-3 pb-3 flex-grow flex flex-col bg-clip-text text-transparent bg-gradient-to-r from-orange-300 to-blue-300'>
         <div className='font-bold text-xl'>{title}</div>
         <div className='text-lg my-3'>{description}</div>
         <Row className='mt-auto text-sm items-center'>
