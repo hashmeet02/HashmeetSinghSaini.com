@@ -1,13 +1,13 @@
 import React from 'react'
 import Work from './Work'
 import { Row } from 'react-bootstrap'
-import emeraldKioskResort from "../assets/works/emeraldKioskResort.png";
-import myStockApp from "../assets/works/myStockApp.png";
-import toDoListApp from "../assets/works/toDoListApp.png";
-import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.png";
-import inventoryManagementApp from "../assets/works/inventoryManagementApp.png";
-import artLusionApp from "../assets/works/artLusionApp.png";
-import assemblyLineProject from "../assets/works/assemblyLineProject.jpg";
+import emeraldKioskResort from "../assets/works/resort.avif";
+import myStockApp from "../assets/works/myStockApp.avif";
+import toDoListApp from "../assets/works/toDoListApp.avif";
+import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.jpg";
+import inventoryManagementApp from "../assets/works/inventoryManagementApp.jpg";
+import artLusionApp from "../assets/works/artLusion.jpg";
+import assemblyLineProject from "../assets/works/assemblyLineProject.avif";
 
 const Works = () => {
   return (
