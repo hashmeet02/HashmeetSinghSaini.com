@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import contact from "../assets/contact.svg";
 import { Form, Button } from 'react-bootstrap';
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaCamera } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { SiApplemusic } from "react-icons/si";
 import emailjs from 'emailjs-com';
@@ -97,6 +97,9 @@ const Contact = () => {
             </a>
             <a href="https://x.com/Hashmee04251863" className='text-white' target="_blank" rel="noopener noreferrer">
                 <BsTwitterX size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
+            </a>
+            <a href="http://vsco.co/hashmeetsaini?share=MTcyMzQ4NTY4Mw%3D%3D" className='text-white' target="_blank" rel="noopener noreferrer">
+                <FaCamera size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
             </a>
             <a href="https://music.apple.com/profile/hashmeet_s" className='text-white' target="_blank" rel="noopener noreferrer">
                 <SiApplemusic size={50} className='mx-3 ease-in-out transition duration-300 hover:scale-125'/>
