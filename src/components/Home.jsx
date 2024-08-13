@@ -37,8 +37,8 @@ const Home = () => {
           <img src={memoji2} alt="Memoji" />
         </Col>
         <Col md={8}>
-          <div className='text-5xl my-2'>Hi👋🏼, my name is</div>
-          <div className='text-8xl my-2'>
+          <div className='text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl my-2'>Hi👋🏼, my name is</div>
+          <div className='text-6xl md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-8xl my-2'>
             <span>
               <TypeAnimation
                 sequence={[
@@ -51,7 +51,7 @@ const Home = () => {
               />
             </span>
           </div>
-          <div className='text-5xl my-4' ref={animationRef}>
+          <div className='text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl my-4' ref={animationRef}>
             I'm a Computer Programming and Analysis graduate 👨🏼‍🎓 and 
             <span>
               <br />
