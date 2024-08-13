@@ -12,7 +12,7 @@ const Home = () => {
           <img src={memoji2} alt="Memoji" />
         </Col>
         <Col md={8}>
-          <div className='text-orange-400 text-3xl my-2'>Hi👋🏼, my name is</div>
+          <div className='text-3xl my-2'>Hi👋🏼, my name is</div>
           <div className='text-6xl my-2'>
             <span>
               <TypeAnimation
@@ -22,6 +22,7 @@ const Home = () => {
                 ]}
                 wrapper='div'
                 speed={10}
+                className='bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] h-auto py-2 animate-gradient'
               />
             </span>
           </div>

@@ -9,6 +9,14 @@ module.exports = {
       fontFamily: {
         roboto: ['"Roboto Mono"', 'monospace'],
       },
+      animation: {
+        'gradient': 'gradient 6s linear infinite',
+      },
+      keyframes: {
+        'gradient': {
+          to: { 'background-position': '200% center' },
+        }
+      },   
     },
   },
   plugins: [],
