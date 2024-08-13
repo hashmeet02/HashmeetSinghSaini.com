@@ -82,7 +82,7 @@ const Skills = () => {
         <Skill image={bash} name="Bash"/>
         <Skill image={html} name="HTML5"/>
         <Skill image={css} name="CSS3"/>
-        <Skill image={tailwind} name="Tailwind CSS"/>
+        <Skill image={tailwind} name="Tailwind"/>
         <Skill image={bootstrap} name="BootStrap"/>
         <Skill image={jest} name="Jest"/>
         <Skill image={json} name="JSON"/>

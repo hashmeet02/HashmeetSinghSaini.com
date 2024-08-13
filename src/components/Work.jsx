@@ -24,7 +24,7 @@ const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
         )}
       </div>
       <div className='px-3 pb-3 flex-grow flex flex-col'>
-        <div className='font-extrabold text-2xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] animate-gradient'>{title}</div>
+        <div className='font-extrabold text-center text-2xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] animate-gradient'>{title}</div>
         <div className='text-lg my-3'>{description}</div>
         <Row className='mt-auto text-sm items-center'>
           <Col className='flex-grow'>

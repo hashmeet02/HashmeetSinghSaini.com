@@ -6,14 +6,14 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   return (
-    <div id="home" className='text-white mx-12 font-roboto pt-44'>
+    <div id="home" className='text-white mx-12 font-roboto pt-56 pb-28'>
       <Row className='items-center justify-between'>
         <Col md={4}>
           <img src={memoji2} alt="Memoji" />
         </Col>
         <Col md={8}>
-          <div className='text-3xl my-2'>Hi👋🏼, my name is</div>
-          <div className='text-6xl my-2'>
+          <div className='text-5xl my-2'>Hi👋🏼, my name is</div>
+          <div className='text-8xl my-2'>
             <span>
               <TypeAnimation
                 sequence={[
@@ -26,7 +26,7 @@ const Home = () => {
               />
             </span>
           </div>
-          <div className='text-3xl my-4'>I'm a Computer Programming and Analysis graduate 👨🏼‍🎓 and 
+          <div className='text-5xl my-4'>I'm a Computer Programming and Analysis graduate 👨🏼‍🎓 and 
             <span><br />
               <TypeAnimation
                 sequence={[
