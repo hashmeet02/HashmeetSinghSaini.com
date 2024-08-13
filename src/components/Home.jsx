@@ -1,10 +1,35 @@
 import React from 'react';
+import { useState, useRef, useEffect } from 'react';
 //import memoji from "../assets/HashmeetMemoji.svg";
 import memoji2 from "../assets/hashmeetMemoji.svg";
 import { Row, Col, Button } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
+  const [isInView, setIsInView] = useState(false);
+  const animationRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(entry.isIntersecting);
+      },
+      {
+        threshold: 0.1, // Adjust this threshold as needed
+      }
+    );
+
+    if (animationRef.current) {
+      observer.observe(animationRef.current);
+    }
+
+    return () => {
+      if (animationRef.current) {
+        observer.unobserve(animationRef.current);
+      }
+    };
+  }, []);
+
   return (
     <div id="home" className='text-white mx-12 font-roboto pt-56 pb-28'>
       <Row className='items-center justify-between'>
@@ -26,23 +51,28 @@ const Home = () => {
               />
             </span>
           </div>
-          <div className='text-5xl my-4'>I'm a Computer Programming and Analysis graduate 👨🏼‍🎓 and 
-            <span><br />
-              <TypeAnimation
-                sequence={[
-                  "a Full-Stack ",
-                  1000,
-                  "a Software ",
-                  1000,
-                  "an Application ",
-                  1000,
-                ]}
-                wrapper='div'
-                speed={40}
-                repeat={Infinity}
-              />
+          <div className='text-5xl my-4' ref={animationRef}>
+            I'm a Computer Programming and Analysis graduate 👨🏼‍🎓 and 
+            <span>
+              <br />
+              {isInView && (
+                <TypeAnimation
+                  sequence={[
+                    "a Full-Stack ",
+                    1000,
+                    "a Software ",
+                    1000,
+                    "an Application ",
+                    1000,
+                  ]}
+                  wrapper='div'
+                  speed={40}
+                  repeat={Infinity}
+                />
+              )}
             </span>
-            Developer candidate in Toronto 🍁.</div>
+            Developer candidate in Toronto 🍁.
+          </div>
         </Col>
       </Row>
     </div>
