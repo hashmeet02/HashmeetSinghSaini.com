@@ -23,8 +23,8 @@ const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
           </a>
         )}
       </div>
-      <div className='px-3 pb-3 flex-grow flex flex-col bg-clip-text text-transparent bg-gradient-to-r from-orange-300 to-blue-300'>
-        <div className='font-bold text-xl'>{title}</div>
+      <div className='px-3 pb-3 flex-grow flex flex-col'>
+        <div className='font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-blue-400 text-center'>{title}</div>
         <div className='text-lg my-3'>{description}</div>
         <Row className='mt-auto text-sm items-center'>
           <Col className='flex-grow'>

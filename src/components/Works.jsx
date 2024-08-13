@@ -11,7 +11,7 @@ import assemblyLineProject from "../assets/works/assemblyLineProject.avif";
 
 const Works = () => {
   return (
-<div className=' mx-12 pt-28' id="works">
+    <div className=' mx-12 pt-28' id="works">
       <h1 className='text-orange-400 text-5xl text-center font-roboto font-bold  mb-4'>
         Works 👨🏼‍💻
       </h1>
