@@ -60,9 +60,9 @@ const Home = () => {
                   sequence={[
                     "a Full-Stack ",
                     1000,
-                    "a Software ",
+                    "a Software",
                     1000,
-                    "an Application ",
+                    "an Application",
                     1000,
                   ]}
                   wrapper='div'
