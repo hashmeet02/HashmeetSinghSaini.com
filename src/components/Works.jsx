@@ -11,11 +11,11 @@ import assemblyLineProject from "../assets/works/assemblyLineProject.avif";
 
 const Works = () => {
   return (
-    <div className=' mx-12 pt-28' id="works">
+    <div className=' mx-12 pt-28 lg:mt-32 lg:mb-36' id="works">
       <h1 className='text-orange-400 text-5xl text-center font-roboto font-bold  mb-4'>
         Works 👨🏼‍💻
       </h1>
-      <Row className='mx-auto justify-around '>
+      <Row className='mx-auto justify-around'>
         <Work 
           image={emeraldKioskResort} 
           title="Emerald Chasm Resort Kiosk" 

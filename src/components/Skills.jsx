@@ -59,7 +59,7 @@ const Skill = ({ image, name }) => {
 
 const Skills = () => {
   return (
-    <div className='px-4 sm:px-28 mx-auto pt-10 sm:pt-28' id="toolkit">
+    <div className='px-4 sm:px-28 mx-auto pt-10 sm:pt-28 lg:mt-28 lg:mb-36' id="toolkit">
       <h1 className='text-orange-400 text-center font-roboto font-bold text-5xl mb-4'>
         ToolKit 🔧
       </h1>
