@@ -47,7 +47,7 @@ const Home = () => {
                 ]}
                 wrapper='div'
                 speed={10}
-                className='bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] h-auto py-2 animate-gradient'
+                className='bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.red.300),theme(colors.red.400),theme(colors.blue.500),theme(colors.red.400),theme(colors.orange.300),theme(colors.orange.400))] bg-[length:200%_auto] h-auto py-2 animate-gradient'
               />
             </span>
           </div>
