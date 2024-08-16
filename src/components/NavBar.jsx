@@ -6,7 +6,7 @@ const NavBar = () => {
     <div>
       <Navbar variant="light" expand="lg" fixed="top" className="bg-gradient-to-r from-black/90 via-orange-950 to-orange-400/90 items-center font-roboto">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             {/* <img 
               src={logo}
               alt="Hashmeet Logo"
