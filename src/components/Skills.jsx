@@ -45,7 +45,7 @@ const Skill = ({ image, name }) => {
       onMouseEnter={() => setShowName(true)} 
       onMouseLeave={() => setShowName(false)}
     >
-      <img src={image} alt={name} className={`h-16 mx-auto transition-transform duration-200 transform origin-bottom-right ${ showName && "rotate-12"}`}/>
+      <img src={image} alt={name} className={`h-16 mx-auto transition-transform duration-200 sm:my-2 lg:my-10 transform origin-bottom-right ${ showName && "rotate-12"}`}/>
       <div
         className={`mt-2 text-white transition-opacity duration-500 ease-in-out ${
           showName ? 'opacity-100' : 'opacity-0'
@@ -64,7 +64,7 @@ const Skills = () => {
         ToolKit 🔧
       </h1>
       <Row className='mx-auto justify-around'>
-        <Skill image={c} name="C"/>
+        <Skill image={c} name="C" />
         <Skill image={cplus} name="C++"/>
         <Skill image={python} name="Python"/>
         <Skill image={java} name="Java"/>
