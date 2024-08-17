@@ -33,10 +33,10 @@ const Home = () => {
   return (
     <div id="home" className='text-white mx-12 font-roboto pt-56 pb-28'>
       <Row className='items-center justify-between'>
-        <Col md={4}>
-          <img src={memoji2} alt="Memoji" />
+        <Col md={5}>
+          <img src={memoji2} alt="Memoji"/>
         </Col>
-        <Col md={8}>
+        <Col md={7}>
           <div className='text-4xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl my-2'>Hi👋🏼, my name is</div>
           <div className='text-6xl md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-8xl my-2'>
             <span>
@@ -47,7 +47,7 @@ const Home = () => {
                 ]}
                 wrapper='div'
                 speed={10}
-                className='bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.red.300),theme(colors.red.400),theme(colors.blue.500),theme(colors.red.400),theme(colors.orange.300),theme(colors.orange.400))] bg-[length:200%_auto] h-auto py-2 animate-gradient'
+                className='bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] h-auto py-2 animate-gradient'
               />
             </span>
           </div>
