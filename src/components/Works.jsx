@@ -19,7 +19,7 @@ const Works = () => {
         <Work 
           image={emeraldKioskResort} 
           title="Emerald Chasm Resort Kiosk" 
-          description=" Multi-threaded Java application for a resort Kiosk that allows
+          description="Multi-threaded Java app for a resort Kiosk that allows
           customers to book rooms and Admin to generate bills. Data storage using Sql 
           Lite. Designed using JavaFX Scene Builder." 
           tech="Java JavaFx SQLlite" 
@@ -30,9 +30,9 @@ const Works = () => {
         <Work 
           image={myStockApp} 
           title="My Stocks App" 
-          description="iOS application built on Xcode allowing users to track their stocks
-          using real time data from MSFinance API."
-          tech="Swift CoreData Storyboard RapidApi" 
+          description="iOS app built on Xcode allowing users to track their stocks
+          using real time data from MSFinance API. Allows basic CRUD operations."
+          tech="Swift CoreData Storyboard RapidApi." 
           gitLink="https://github.com/hashmeet02/MyStocksApp" 
           demoLink="https://youtu.be/mbMVBgWzg38"
         />
@@ -40,9 +40,9 @@ const Works = () => {
         <Work 
           image={toDoListApp} 
           title="To Do List App" 
-          description="This is my To Do App created for iOS using Xcode, Swift and 
-          Storyboard. It allows users to manage their reminders with CRUD operations and 
-          has persistent data storage to save user data. " 
+          description="iOS To Do App created using Xcode, Swift and Storyboard. It 
+          allows users to manage reminders with CRUD operations and has persistent 
+          data storage to save user data." 
           tech="Swift Storyboard" 
           gitLink="https://github.com/hashmeet02/ToDoListApp" 
           demoLink="https://youtu.be/Kn8tT8z9s7s"
@@ -50,11 +50,10 @@ const Works = () => {
         
         <Work 
           image={contactsDirectoryApp} 
-          title="Contacts Direcotry App" 
-          description="This is the demo for my Contact Directory App created on Android 
-          Studio with Java and Room Database. The aim of the application is to allow 
-          android users to be able to perform CRUD operations and manage their list of 
-          Contacts." 
+          title="Contacts Directory App" 
+          description="My Contact App created on Android Studio with Java and Room 
+          Database. It allows android users to perform CRUD operations and manage 
+          their list of Contacts." 
           tech="Android Studio Java RoomDB" 
           gitLink="https://github.com/hashmeet02/Contacts-Directory-App" 
           demoLink="https://youtu.be/Z5XayO9C2RQ"
@@ -63,10 +62,9 @@ const Works = () => {
         <Work 
           image={inventoryManagementApp} 
           title="Inventory Management App" 
-          description="This is an Inventory Management Application created using Java 
-          in conjunction with SQL lite for data persistence. The goal of the app is to 
-          provide persisted CRUD functionality to the user such that they can store 
-          information about some parts and products that they have." 
+          description="Application created with SQL lite for data persistence. It 
+          provides CRUD functionality to store information about inventory parts 
+          and products that they have." 
           tech="Java JavaFX SQLlite" 
           gitLink="https://github.com/hashmeet02/Inventory-Management-App" 
           demoLink="https://youtu.be/ikruzUthLtg"
@@ -75,10 +73,9 @@ const Works = () => {
         <Work 
           image={artLusionApp} 
           title="ArtLusion Website" 
-          description="This is a website built over the APIs offered by Metro Art 
-          university. It allows users to search artwork based on different categories
-          like title, type, paint and more. It also provides ability to favorite cetain
-          artworks." 
+          description="Website built using Metro Art university's APIs. Users can
+          search artwork based on different categories like title, type, paint 
+          and mark artworks as favorite." 
           tech="NextJs" 
           gitLink="https://github.com/hashmeet02/ArtLusion/tree/main" 
           demoLink="https://art-lusion-hashmeet02.vercel.app/"
@@ -87,9 +84,9 @@ const Works = () => {
         <Work 
           image={assemblyLineProject} 
           title="Assembly Line Project" 
-          description="C++ multi-threaded OOP project created to mimic the working of a 
-          Manufacturing Plant producing different products and parts to fulfill 
-          customer requirements. It reads and writes data from and to text files." 
+          description="C++ multi-threaded OOP project mimicking a Manufacturing 
+          Plant producing different products and parts to fulfill customer 
+          requirements. Uses text files for data storage." 
           tech="C++" 
           gitLink="https://github.com/hashmeet02/ArtLusion/tree/main"
         />
