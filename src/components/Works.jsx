@@ -91,7 +91,7 @@ const Works = () => {
           gitLink="https://github.com/hashmeet02/ArtLusion/tree/main"
         />
 
-        <Work 
+        {/* <Work 
           image={assemblyLineProject} 
           title="Fragments Data Transfer" 
           description="C++ multi-threaded OOP project mimicking a Manufacturing 
@@ -99,7 +99,7 @@ const Works = () => {
           requirements. Uses text files for data storage." 
           tech="C++" 
           gitLink="https://github.com/hashmeet02/ArtLusion/tree/main"
-        />
+        /> */}
   
       </Row>
 
