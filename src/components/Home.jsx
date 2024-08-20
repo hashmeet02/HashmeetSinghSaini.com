@@ -1,8 +1,8 @@
-import React from 'react';
-import { useState, useRef, useEffect } from 'react';
-//import memoji from "../assets/HashmeetMemoji.svg";
+import React, { useState, useRef, useEffect } from 'react';
 import memoji2 from "../assets/hashmeetMemoji.svg";
-import { Row, Col, Button } from 'react-bootstrap';
+import resumeBackground from "../assets/Untitled.svg";
+import cv from "../assets/cv.png";
+import { Row, Col } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
@@ -31,8 +31,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div id="home" className='text-white mx-12 font-roboto pt-56 pb-28'>
-      <Row className='items-center justify-between'>
+    <div id="home" className='text-white mx-12 font-roboto pt-56'>
+      <Row className='items-center justify-between mb-72'>
         <Col md={5}>
           <img src={memoji2} alt="Memoji"/>
         </Col>

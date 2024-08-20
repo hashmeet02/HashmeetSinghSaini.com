@@ -6,6 +6,7 @@ import Works from "./components/Works";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 import FadeInSection from "./components/FadeInSection"; // Adjust the import path as necessary
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <FadeInSection>
       <Home />      
       </FadeInSection>
+      <Resume />      
       <FadeInSection>
         <Skills />
       </FadeInSection>
