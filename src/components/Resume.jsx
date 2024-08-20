@@ -4,7 +4,7 @@ import cv from "../assets/cv.png"
 
 const Resume = () => {
   return (
-<div 
+<div id='resume'
   className='relative w-full min-h-screen' 
   style={{
     backgroundImage: `url(${resumeBackground})`,
@@ -22,7 +22,7 @@ const Resume = () => {
     <div
       className='border-8 border-dotted backdrop-blur-md border-orange-500 rounded-full w-72 h-72 flex items-center justify-center transition-transform transform hover:scale-150'
     >
-      <a href="hashmeet_singh_saini_resume.pdf" className='flex items-center justify-center'>
+      <a href="hashmeet_singh_saini_resume.pdf" target="_balnk" className='flex items-center justify-center'>
         <img
           src={cv}
           alt="download resume"
