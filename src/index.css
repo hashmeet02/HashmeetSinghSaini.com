@@ -24,3 +24,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #ffa052;
 }
+
+@media (pointer: coarse) {
+    .gb-container {
+        background-attachment: inital !important;
+    }
+}
