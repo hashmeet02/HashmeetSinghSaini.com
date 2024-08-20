@@ -12,7 +12,7 @@ const Resume = () => {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     backgroundAttachment: 'fixed', // Keeps the background fixed during scroll
-    height: '50vh', // Keeps the container height to viewport height
+    height: '100vh', // Keeps the container height to viewport height
     overflow: 'hidden' // Clips the overflowing content
   }}
 >
