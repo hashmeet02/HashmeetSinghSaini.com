@@ -8,6 +8,7 @@ import contactsDirectoryApp from "../assets/works/contactsDirectoryApp.jpg";
 import inventoryManagementApp from "../assets/works/inventoryManagementApp.jpg";
 import artLusionApp from "../assets/works/artLusion.jpg";
 import assemblyLineProject from "../assets/works/assemblyLineProject.avif";
+import fragments from "../assets/works/fragments.svg"
 
 const Works = () => {
   return (
@@ -25,6 +26,17 @@ const Works = () => {
           tech="Java JavaFx SQLlite" 
           gitLink="https://github.com/hashmeet02/EmeraldChasmResortKiosk" 
           demoLink="https://youtu.be/YL9Ws3sNO1A"
+        />
+          
+        <Work 
+          image={fragments} 
+          title="Fragments Data Microservice" 
+          description="CRUD API for storing and converting data in different 
+          formats like app JSON, text and images. Includes CI/CD pipeline,
+          Docker Compose and Jest and Hurl testing"
+          tech="Jest Hurl S3 ECS ECR DynamoDB Docker GithubActions ExpressJs" 
+          gitLink="https://github.com/hashmeet02/fragments"
+          demoLink="https://youtu.be/lf_SEdEwwnI"
         />
 
         <Work 
@@ -90,16 +102,6 @@ const Works = () => {
           tech="C++" 
           gitLink="https://github.com/hashmeet02/ArtLusion/tree/main"
         />
-
-        {/* <Work 
-          image={assemblyLineProject} 
-          title="Fragments Data Transfer" 
-          description="C++ multi-threaded OOP project mimicking a Manufacturing 
-          Plant producing different products and parts to fulfill customer 
-          requirements. Uses text files for data storage." 
-          tech="C++" 
-          gitLink="https://github.com/hashmeet02/ArtLusion/tree/main"
-        /> */}
   
       </Row>
 
