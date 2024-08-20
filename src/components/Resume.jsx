@@ -5,33 +5,31 @@ import cv from "../assets/cv.png"
 const Resume = () => {
   return (
 <div id='resume'
-  className='relative w-full min-h-screen overflow-hidden bg-fixed' 
+  className='relative w-full h-screen max-h-full overflow-hidden bg-fixed' 
   style={{
     backgroundImage: `url(${resumeBackground})`,
-    backgroundSize: 'cover', // Ensures the background covers the entire area
+    backgroundSize: 'cover', // Adjust to 'contain' for better visibility on small screens
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    // backgroundAttachment: 'fixed', // Keeps the background fixed during scroll
-    // height: '100vh', // Keeps the container height to viewport height
-    // overflow: 'hidden' // Clips the overflowing content
   }}
 >
   <div
     className='absolute inset-0 flex items-center justify-center z-10'
   >
     <div
-      className='border-8 border-dotted backdrop-blur-md border-orange-500 rounded-full w-72 h-72 flex items-center justify-center transition-transform transform hover:scale-150'
+      className='border-8 border-dotted backdrop-blur-md border-orange-500 rounded-full w-48 h-48 md:w-72 md:h-72 flex items-center justify-center transition-transform transform hover:scale-150'
     >
-      <a href="hashmeet_singh_saini_resume.pdf" target="_balnk" className='flex items-center justify-center'>
+      <a href="hashmeet_singh_saini_resume.pdf" target="_blank" className='flex items-center justify-center'>
         <img
           src={cv}
           alt="download resume"
-          className='w-48 h-48'
+          className='w-24 h-24 md:w-48 md:h-48'
         />
       </a>
     </div>
   </div>
 </div>
+
 
 
   )
