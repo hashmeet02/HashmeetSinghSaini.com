@@ -1,5 +1,5 @@
 import React from 'react'
-import resumeBackground from "../assets/Untitled.svg"
+import resumeBackground from "../assets/resumeBackground.svg"
 import cv from "../assets/cv.png"
 
 const Resume = () => {

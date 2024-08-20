@@ -1,7 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import memoji2 from "../assets/hashmeetMemoji.svg";
-import resumeBackground from "../assets/Untitled.svg";
-import cv from "../assets/cv.png";
 import { Row, Col } from 'react-bootstrap';
 import { TypeAnimation } from 'react-type-animation';
 
