@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div id="home" className='text-white mx-12 font-roboto pt-56'>
-      <Row className='items-center justify-between mb-72'>
+      <Row className='items-center justify-between mb-36'>
         <Col md={5}>
           <img src={memoji2} alt="Memoji"/>
         </Col>

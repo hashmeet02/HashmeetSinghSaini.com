@@ -21,7 +21,9 @@ function App() {
       <FadeInSection>
       <Home />      
       </FadeInSection>
-      <Resume />      
+      <FadeInSection>
+      <Resume />     
+      </FadeInSection> 
       <FadeInSection>
         <Skills />
       </FadeInSection>
