@@ -5,7 +5,7 @@ import cv from "../assets/cv.png"
 const Resume = () => {
   return (
 <div id='resume'
-  className='relative w-full h-screen max-h-full overflow-hidden bg-fixed' 
+  className='relative w-full h-screen max-h-full overflow-hidden' 
   style={{
     backgroundImage: `url(${resumeBackground})`,
     backgroundSize: 'cover', // Adjust to 'contain' for better visibility on small screens
