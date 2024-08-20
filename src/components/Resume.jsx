@@ -5,15 +5,15 @@ import cv from "../assets/cv.png"
 const Resume = () => {
   return (
 <div id='resume'
-  className='relative w-full min-h-screen' 
+  className='relative w-full min-h-screen overflow-hidden bg-fixed' 
   style={{
     backgroundImage: `url(${resumeBackground})`,
     backgroundSize: 'cover', // Ensures the background covers the entire area
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    backgroundAttachment: 'fixed', // Keeps the background fixed during scroll
-    height: '100vh', // Keeps the container height to viewport height
-    overflow: 'hidden' // Clips the overflowing content
+    // backgroundAttachment: 'fixed', // Keeps the background fixed during scroll
+    // height: '100vh', // Keeps the container height to viewport height
+    // overflow: 'hidden' // Clips the overflowing content
   }}
 >
   <div
