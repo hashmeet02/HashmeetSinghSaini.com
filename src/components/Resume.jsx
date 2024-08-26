@@ -17,7 +17,7 @@ const Resume = () => {
     className='absolute inset-0 flex items-center justify-center z-10'
   >
     <div
-      className='border-8 border-dotted backdrop-blur-md border-orange-500 rounded-full w-48 h-48 md:w-72 md:h-72 flex items-center justify-center transition-transform transform hover:scale-150'
+      className='border-8 bg-blue-500/50 border-dashed backdrop-blur-md rounded-full w-48 h-48 md:w-72 md:h-72 flex items-center justify-center transition transform hover:scale-150 '
     >
       <a href="hashmeet_singh_saini_resume.pdf" target="_blank" className='flex items-center justify-center'>
         <img
