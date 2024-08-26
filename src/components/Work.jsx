@@ -27,7 +27,7 @@ const Work = ({ image, title, description, tech, gitLink, demoLink }) => {
         <div className='font-extrabold text-center text-2xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] animate-gradient'>{title}</div>
         <div className='text-lg my-3'>{description}</div>
         <Row className='mt-auto text-sm items-center'>
-          <Col md={8} className='flex-grow font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] animate-gradient'>
+          <Col md={8} className='flex-grow mb-3 font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.orange.400),theme(colors.orange.200),theme(colors.red.400),theme(colors.blue.400),theme(colors.red.300),theme(colors.red.200),theme(colors.orange.400))] bg-[length:200%_auto] animate-gradient'>
             {tech}
           </Col>
           <Col md={4} className='flex justify-end'>
