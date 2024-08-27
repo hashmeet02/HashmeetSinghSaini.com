@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import NavBar from "./components/NavBar";
-import AnimatedCursor from "react-animated-cursor"
+import AnimatedCursor from "react-animated-cursor";
 import Home from "./components/Home";
 import Works from "./components/Works";
 import Skills from "./components/Skills";
@@ -11,9 +11,28 @@ import Resume from "./components/Resume";
 import FadeInSection from "./components/FadeInSection"; // Adjust the import path as necessary
 
 function App() {
+  const [isCursorVisible, setCursorVisible] = useState(true);
+
+  useEffect(() => {
+    const handleTouchStart = () => setCursorVisible(false);
+    const handleTouchEnd = () => setCursorVisible(true);
+    const handleMouseMove = () => setCursorVisible(true);
+
+    window.addEventListener("touchstart", handleTouchStart);
+    window.addEventListener("touchend", handleTouchEnd);
+    window.addEventListener("mousemove", handleMouseMove);
+
+    return () => {
+      window.removeEventListener("touchstart", handleTouchStart);
+      window.removeEventListener("touchend", handleTouchEnd);
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen overflow-hidden">
-<AnimatedCursor
+    <div className="min-h-screen overflow-hidden bg-black">
+      {isCursorVisible && (
+        <AnimatedCursor
   color="251, 146, 60"
   innerSize={15}
   outerSize={65}
@@ -30,6 +49,7 @@ function App() {
     zIndex: 10000000, // High z-index to ensure visibility
   }}
 />
+      )}
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
@@ -37,11 +57,11 @@ function App() {
       </Helmet>
       <NavBar />
       <FadeInSection>
-      <Home />      
+        <Home />
       </FadeInSection>
       <FadeInSection>
-      <Resume />     
-      </FadeInSection> 
+        <Resume />
+      </FadeInSection>
       <FadeInSection>
         <Skills />
       </FadeInSection>
