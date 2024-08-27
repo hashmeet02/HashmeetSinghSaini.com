@@ -18,7 +18,7 @@ const Resume = () => {
   >
     <a href="hashmeet_singh_saini_resume.pdf" target="_blank" className='flex items-center justify-center'>
     <div
-      className='border-8 bg-blue-500/50 border-dashed backdrop-blur-md rounded-full w-48 h-48 md:w-72 md:h-72 flex items-center justify-center transition transform hover:scale-150 '
+      className=' bg-blue-500/50  backdrop-blur-md rounded-full w-48 h-48 md:w-72 md:h-72 flex items-center justify-center transition transform hover:scale-150 duration-700 '
     >
       
         <img
