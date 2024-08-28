@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const handleTouchStart = () => setCursorVisible(false);
-    const handleTouchEnd = () => setCursorVisible(true);
+    const handleTouchEnd = () => setCursorVisible(false);
     const handleMouseMove = () => setCursorVisible(true);
 
     window.addEventListener("touchstart", handleTouchStart);
